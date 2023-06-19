@@ -1,0 +1,77 @@
+.header {
+  background: #ffffff;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+  /* padding: 26px 0; */
+}
+
+.header header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  gap: 0 50px;
+}
+.header nav ul li a {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  /* identical to box height */
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #0d1c37;
+  text-decoration: none;
+}
+.header nav ul li .active {
+  color: #ec1f7a;
+}
+.header .header_social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0 40px;
+}
+.header .header_social h6 {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 23px;
+  /* identical to box height */
+  color: #343a40;
+}
+
+.header .header_social div {
+  display: flex;
+  gap: 0 20px;
+}
+.header .header_social div span {
+  width: 48px;
+  height: 48px;
+  background: #ffffff;
+  border: 1px solid #ec1f7a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.header .header_social div .github {
+  background: linear-gradient(90deg, #662d8c 0%, #ed1e79 100%);
+}
+.header .header_social div .github i {
+  color: #fff;
+}
+.header .header_social div span i {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 29px;
+  text-align: center;
+  color: #14213d;
+}
