@@ -24,8 +24,3 @@
   text-transform: uppercase;
   color: #000000;
 }
-.hero .container h1 .head_title {
-  background: linear-gradient(90deg, #662d8c 0%, #ed1e79 100%);
-  -webkit-text-fill-color: #0000;
-  -webkit-background-clip: text;
-}
